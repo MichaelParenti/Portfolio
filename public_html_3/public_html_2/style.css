@@ -1,0 +1,86 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid blue;
+    background-color: black;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.food{
+    background-color: white;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.wall{
+    background-color: blue;
+}
+
+.ghost-home{
+    background-color: rgb(53, 53, 53);
+}
+
+.power-up{
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.Clyde{
+    background-color: cyan;
+    border: 0px;
+}
+
+.Tom{
+    background-color: orange;
+    border: 0px;
+}
+
+.Bob{
+    background-color: red;
+    border: 0px;
+}
+
+.Steve{
+    background-color: rgb(255, 161, 177);
+    border: 0px;
+}
+
+.scared-ghost{
+    border: 0px;
+    animation: change infinite 1s;
+}
+
+@keyframes change{
+    0%{
+        background-color: blue;
+    }
+    50%{
+        background-color: white;
+    }
+}
+
+
+
+.pac-man{
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+h2{
+    margin: 10px;
+    color: white;
+}
+
+
+body{
+    background-color: black;
+}

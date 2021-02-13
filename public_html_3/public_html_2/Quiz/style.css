@@ -1,0 +1,545 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo', sans-serif;
+    font-size: 3vw;
+}
+.container{
+    background-image: linear-gradient(to bottom right, teal, white, teal);
+    justify-content: center;
+    color: black;
+    padding: 20px;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 8vw;
+}
+h1{
+    margin: 10px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-size: 6vw;
+}
+h3{
+    font-size: 4vw;
+    margin: 20px;
+    display: inline-block;
+}
+button{
+    background: transparent;
+    border: transparent;
+    font-family: 'Exo', sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    outline: none;
+}
+p{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    z-index: 9999999999999999999;
+}
+
+/* .correct{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999999999999999999;
+} */
+
+
+
+
+
+
+
+#next{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next2{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next2:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next2:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next3{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next3:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next3:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next4{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next4:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next4:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next5{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next5:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next5:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next6{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next6:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next6:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next7{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next7:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next7:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next8{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next8:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next8:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next9{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next9:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next9:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next10{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next10:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#next10:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+#start{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: visible;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#start:visited{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: visible;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#start:active{
+    background-color: white;
+    font-size: 4vw;
+    font-family: 'Exo', sans-serif;
+    border-radius: 25%;
+    margin: 20px;
+    visibility: visible;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+
+
+
+#all{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: visible;
+}
+#all2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+#all3{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+#all4{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+#all5{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+#all6{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+#all7{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+#all8{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+#all9{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+#all10{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:black;
+    visibility: hidden;
+}
+
+
+
+
+#yours{
+    position: absolute;
+    right: 20vw;
+    /* top: 1vw; */
+    font-size: 4vw;
+    margin: 2vw;
+    display: inline-block;
+    visibility: hidden;
+}
+
+
+
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+            display: none;
+        }
